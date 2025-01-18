@@ -1,0 +1,134 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "open Sans", "sans-serif";
+    /* background-color: black; */
+    
+
+}
+ul {
+    list-style: none;
+    
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+
+
+/* start header */
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    
+}
+.header{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.container img {
+    width: 70px;
+}
+.container ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.container ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+.container ul li a:hover{
+    transform: scaleX(1.2);
+}
+/* end header */
+/* start content */
+.content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ width: 80%;
+margin: auto;
+
+}
+.content .box{
+    color: white;
+    width: 40%;
+}
+.content .box h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.content .box p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.content .box button{
+    all: unset;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    /* transition: 0.5s; */
+}
+.content .box button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.content .photo img{
+width: 280px;
+}
+.image{
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+.image img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* end content */
