@@ -66,6 +66,7 @@ ul {
 }
 .container img {
     width: 70px;
+    margin-top:10pxl
 }
 @media (max-width:678px) {
     .container img {
