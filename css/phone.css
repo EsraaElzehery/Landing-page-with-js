@@ -167,11 +167,12 @@ margin: auto;
 }
 .content .photo img{
 width: 280px;
-margin-top: 70%;
+margin-top: 30%;
 }
 @media (max-width:678px) {
     .content .photo img{
         width:100px ;
+        margin-top: 70%;
     }
 }
 
